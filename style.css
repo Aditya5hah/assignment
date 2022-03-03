@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  
+}
+
+nav{
+	height: 80px;
+	background-color: #d9b48fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 50px 0px 100px;
+	cursor: pointer;
+}
+nav ul{
+	display: flex;
+	list-style: none;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+nav .logo{
+	font-size: 33px;
+	color: white;
+	font-weight: 600px;
+	font-family: Dancing Script;
+}
+nav ul li{
+	margin: 0 5px;
+}
+nav ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background-color: white;
+	display: block;
+	margin: auto;
+	transition: 0.6s;
+}
+nav ul li:hover::after{
+	width: 100%;
+}
+/*-navigation end-*/
+.box{
+	max-width: 1500px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 5%;
+	background-color: #b3c7d6ff ;
+	padding-bottom: 140px ;
+
+}
+.word{
+	padding-top: 80px;
+    color: whitesmoke;
+
+}
+.btn{
+    display: inline-block;
+    background: lightpink;
+    color: rgb(252, 235, 235);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 30px 0;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+    -webkittransition: ease-out;
+
+}
+.btn:hover{
+    background-color: white;
+    border: rgb(134, 77, 3) solid;
+    border-radius: 30px;
+    border-width: 4px;
+    color: rgb(131, 63, 0);
+    
+}
