@@ -189,8 +189,42 @@ input[type=submit]:hover {
 	text-align: center;
 	padding-top: 0.5rem;
 }
+.sita{
+	background-color: #b3c7d6ff;
+	text-align: center;
+	font-size: 2rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	padding-top: 2rem;
+	padding-bottom: 3.7rem;
+}
+.sita p{
+	background-color: #a9eed1;
+	box-shadow: 0 0 2rem black;
+	box-sizing: border-box;
+	border-radius: 1rem;
+}
+section{
+	background-color: #b3c7d6ff;
+	width: 100%;
+	height: 50rem;
+	padding-top: 3rem;
 
-
+}
+.light{
+	background-color: #a9eed1;
+	text-align: left;
+	font-size: 1.3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 0.5rem;
+	padding-bottom: 2rem;
+	box-sizing: border-box;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 2rem black;
+	box-sizing: border-box;
+	border-radius: 1rem;
+}
 
 
 
