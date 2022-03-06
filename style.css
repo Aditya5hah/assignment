@@ -34,6 +34,7 @@ nav .logo{
 }
 nav ul li{
 	margin: 0px 5px;
+	font-size: ;
 }
 nav ul li::after{
 	content: '';
@@ -249,15 +250,31 @@ section{
 	background-color: #a9eed1;
 }
 /*responsive*/
-@media(max-width=650px){
-	.checkbtn{
-		display: block;
-		left: 0;
-		width: 100px;
-	}
+.menulst{
+	text-align: right;
 }
 
+#mnu{
+	margin: 0 20px;
+	font-size: 28px;
+	cursor: pointer;
+	display: none;
+}
 
+@media only screen and (max-width: 850px){
+	#mnu
+	{
+		display: block;
+	}
+.gap ul{
+	padding-top: 10px;
+	display: block;
+	justify-content: space-between;
+}
+.gap ul li{
+	justify-content: space-between;
+}	
+}
 
 
 
